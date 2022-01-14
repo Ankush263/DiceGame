@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="dicegame.css">
+    </head>
+    <body>
+        <div class="toss" id="toss">
+            <h1>Tossing Round</h1>
+            <h2>Winner of this round get first turn😀</h2>
+            <span id="player" class="player">-</span>
+            <button id="toss-btn" class="toss-btn">😀Toss 🪙</button>
+            <button id="go" class="go">🥳Let's Go💨</button>
+        </div>
+        <div class="container" id="container">
+            <h1 id="message">Player 1 Turn</h1>
+            <div class="players">
+                <div id="player1">
+                    <h1>Score: 
+                        <span id="player1Scoreboard">0</span>
+                    </h1>
+                    <div id="player1Dice" class="dice active">-</div>
+                </div>
+                <div id="player2">
+                    <h1>Score: 
+                        <span id="player2Scoreboard">0</span>
+                    </h1>
+                    <div id="player2Dice" class="dice">-</div>
+                </div>
+            </div>
+
+            <button id="rollBtn">Roll Dice 🎲</button>
+            <button id="resetBtn">Reset Game 🔁</button>
+        </div>
+        <script src="dicegame.pack.js"></script>
+    </body>
+</html>
